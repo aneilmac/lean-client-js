@@ -33,5 +33,5 @@ onmessage = (e) => {
     }
 };
 
-type TheType = typeof Worker & {new (): Worker};
-export default {} as TheType;
+//type TheType = typeof Worker & {new (): Worker};
+export default (class {}) as typeof Worker & {new (): Worker};
